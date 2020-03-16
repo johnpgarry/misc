@@ -1,0 +1,23 @@
+[2020-03-12 15:56:11] [root@local] [hioadm selftest -d nvme0] [15:56:11] [SUCCEEDED].
+[2020-03-12 16:00:02] [root@local] [hioadm selftest -d nvme0] [16:00:02] [SUCCEEDED].
+[2020-03-12 16:28:06] [root@local] [hioadm selftest -d nvme0] [16:28:06] [SUCCEEDED].
+[2020-03-12 16:29:24] [root@local] [hioadm recovery -d nvme0] [16:29:33] [KILLED].
+[2020-03-12 16:30:55] [root@local] [hioadm recovery -d nvme0] [16:31:09] [FAILED<6>].
+[2020-03-12 16:31:13] [root@local] [hioadm recovery -d nvme0] [16:31:14] [FAILED<6>].
+[2020-03-12 16:31:57] [root@local] [hioadm selftest -d nvme0] [16:31:57] [SUCCEEDED].
+[2020-03-12 16:33:17] [root@local] [hioadm recovery -d nvme0] [16:33:19] [CANCELED].
+[2020-03-12 16:33:26] [root@local] [hioadm recovery -d nvme0] [16:33:28] [FAILED<6>].
+[2020-03-12 16:33:59] [root@local] [hioadm log -d nvme0] [16:34:00] [SUCCEEDED].
+[2020-03-12 16:35:29] [root@local] [hioadm recovery -d nvme0 -t 1] [16:35:31] [FAILED<6>].
+[2020-03-12 16:35:34] [root@local] [hioadm recovery -d nvme0 -t 0] [16:35:36] [FAILED<6>].
+[2020-03-12 16:35:38] [root@local] [hioadm recovery -d nvme0 -t 0] [16:35:39] [FAILED<6>].
+[2020-03-12 16:36:25] [root@local] [hioadm recovery -d nvme0] [16:36:27] [FAILED<6>].
+[2020-03-12 16:40:44] [root@local] [hioadm selftest -d nvme0] [16:40:44] [SUCCEEDED].
+[2020-03-12 16:59:21] [root@local] [hioadm namespace -d nvme0 -t 0 -s 3G] [16:59:21] [FAILED<6>].
+[2020-03-12 17:00:43] [root@local] [hioadm namespace -d nvme0 -t 0 -s 3G] [17:00:43] [FAILED<6>].
+[2020-03-12 17:05:23] [root@local] [hioadm recovery -d nvme0] [17:05:26] [FAILED<6>].
+[2020-03-12 17:08:16] [root@local] [hioadm log -d nvme0] [17:08:16] [SUCCEEDED].
+[2020-03-12 17:52:25] [root@local] [hioadm log -d nvme0] [17:52:25] [SUCCEEDED].
+[2020-03-12 18:07:11] [root@local] [hioadm recovery -d nvme0] [18:07:15] [FAILED<6>].
+[2020-03-16 11:31:25] [root@local] [hioadm recovery -d nvme0] [11:31:28] [FAILED<6>].
+[2020-03-16 11:33:03] [root@local] [hioadm log -d nvme0 -a] [11:33:08] [SUCCEEDED].

@@ -1,0 +1,48 @@
+critical warning              : 4 
+composite temperature         : 294 degree K (21 degree C)
+available spare               : 100 %
+available spare threshold     : 10 %
+percentage used               : 0 %
+data units read               : 0 
+data units written            : 0 
+host read commands            : 0 
+host write commands           : 0 
+controller busy time          : 0 mins
+power cycles                  : 0x78 times
+power on hours                : 0x3727 h
+unsafe shutdowns              : 0x5c times
+media and data integrity errors: 0 
+number of error information log entries: 0 
+warning composite temperature time: 0 min
+critical composite temperature time: 0 min
+controller id                 : 1 
+PCI slot                      : -1 
+highest temperature           : 331 degree K (58 degree C)
+exceed temperature threshold count: 0 
+exceed temperature threshold time: 0 mins
+buck voltage                  : 65535 
+capacitance                   : 1200 uF
+capacitance voltage           : 30000 mV
+capacitance status            : 0 
+capacitance charging time     : 342 times
+active power                  : 6000 mW
+maximum power                 : 17278 mW
+number of power states support: 3 
+atomic write                  : 0 
+flash patrol                  : 0 
+capacity patrol               : 0 
+DDR patrol                    : 0 
+temperature patrol            : 0 
+endurance management          : 0 
+CE concurrent                 : 1 
+read retry                    : 1 
+wear leveling                 : 0 
+flexible raid                 : 1 
+GC                            : 1 
+aging test                    : 0 
+bad block rate                : 0.815597%
+total blocks count            : 572832 
+bad blocks count              : 4672 
+factory bad blocks count      : 4672 
+flash program failed count    : 0 
+flash erase failed count      : 0 
